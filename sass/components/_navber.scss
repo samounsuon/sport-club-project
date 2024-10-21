@@ -1,17 +1,42 @@
 @import "../components/variable";
 // @import "../mixins/responsive";
 @import "./mixins";
+
 nav {
     height: 10vh;
     background: $baground-nav;
     @include align-between;
-    justify-content: space-evenly;
-    // justify-content: center
+    justify-content: start;
+}
+.nav-left{
+    flex: 1;
+    img{
+        width: 70px
+    }
+    @include align-between;
+    justify-content: center;
+}
+.nav-center{
+    flex: 1;
+    input{
+        height: 30px;
+        border: none;
+    }
+    input[type="search"] {
+        padding: 0px 30px;
+    }
+    input[type="submit"] {
+        background-color: #0073C5;
+        padding: 0px 20px;
+        position: relative;
+        right: 1.2%;
+    }
 }
 .nav-right{
+    flex: 2;
     ul{
         @include align-between;
-        gap: 50px;
+        justify-content: space-evenly;
         li{
             list-style: none;
             a{
@@ -19,6 +44,9 @@ nav {
                 color: white;
             }
         }
+        #underline{
+            text-decoration: underline;
+            color:white;
+        }
     }
-
 }
