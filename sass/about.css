@@ -1,12 +1,6 @@
 * {
-  margin: 0;
   padding: 0;
-}
-
-body {
-  height: 200vh;
-  display: flex;
-  flex-direction: column;
+  margin: 0;
 }
 
 nav {
@@ -65,10 +59,4 @@ nav {
 .nav-right ul #underline {
   text-decoration: underline;
   color: white;
-}
-
-header {
-  height: 90vh;
-  background-image: url("/images/about/PNC_students_outside_classroom_2015-99-1080x450.jpg");
-  background-size: cover;
-}/*# sourceMappingURL=contact.css.map */
+}/*# sourceMappingURL=about.css.map */

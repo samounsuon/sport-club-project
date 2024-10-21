@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"version":3,"sources":["../../sass/contact.scss"],"names":[],"mappings":"AAAA,EACI,QAAA,CACA,SAAA,CAEJ,KACI,qBAAA,CACA,YAAA,CACA,YAAA,CACA,qBAAA","file":"contact.min.css"}
-=======
-{"version":3,"sources":[],"names":[],"mappings":"","file":"contact.min.css"}
->>>>>>> 3ae019b49e36927e89f3a6af24fe96fd6e5a9892
+{"version":3,"sources":["../../sass/contact.scss","../../sass/components/_navber.scss","../../sass/components/_variable.scss","../../sass/components/_mixins.scss","../../sass/components/_header.scss"],"names":[],"mappings":"AAAA,EACI,QAAA,CACA,SAAA,CAEJ,KACI,YAAA,CACA,YAAA,CACA,qBAAA,CCHJ,IACI,WAAA,CACA,kBCNU,CCCV,YAAA,CACA,6BAAA,CACA,kBAAA,CFKA,qBAAA,CAEJ,UACI,MAAA,CEVA,YAAA,CACA,6BAAA,CACA,kBAAA,CFaA,sBAAA,CAJA,cACI,UAAA,CAKR,YACI,MAAA,CACA,kBACI,WAAA,CACA,WAAA,CAEJ,+BACI,gBAAA,CAEJ,+BACI,wBAAA,CACA,gBAAA,CACA,iBAAA,CACA,UAAA,CAGR,WACI,MAAA,CACA,cEnCA,YAAA,CACA,6BAAA,CACA,kBAAA,CFmCI,4BAAA,CACA,iBACI,eAAA,CACA,mBACI,oBAAA,CACA,UAAA,CAGR,yBACI,yBAAA,CACA,UAAA,CG/CZ,OACI,WAAA,CACA,yFAAA,CACA,qBAAA","file":"contact.min.css"}
