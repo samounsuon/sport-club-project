@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: green;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=contact.css.map */
+/* nav{
+  height: 10vh;
+  background-color: blue;
+}
+header{
+  height: 15vh;
+  background-color: orange;
+}
+nav{
+  height: 45vh;
+  background-color: teal;
+}
+footer{
+  height: 30vh;
+  background-color: bisque;
+} */

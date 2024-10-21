@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}/*# sourceMappingURL=contact.css.map */
+nav{
+  height: 10vh;
+  background-color: blue;
+}
+header{
+  height: 20vh;
+  background-color: orange;
+  background-image: url("");
+}
+main{
+  height: 50vh;
+  background-color: teal;
+}
+footer{
+  height: 20vh;
+  background-color: antiquewhite;
+}
