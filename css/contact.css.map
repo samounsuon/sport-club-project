@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sources":["../sass/contact.scss","contact.css"],"names":[],"mappings":"AAAA;EACI,SAAA;EACA,UAAA;ACCJ;;ADCA;EACI,uBAAA;EACA,aAAA;EACA,aAAA;EACA,sBAAA;ACEJ","file":"contact.css"}
+=======
+{"version":3,"sources":[],"names":[],"mappings":"","file":"contact.css"}
+>>>>>>> 3ae019b49e36927e89f3a6af24fe96fd6e5a9892
