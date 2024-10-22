@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"about.min.css"}
+{"version":3,"sources":["../../sass/about.scss","../../sass/components/_nav-about.scss","../../sass/components/_mixins.scss"],"names":[],"mappings":"AAAA,EACI,QAAA,CACA,SAAA,CAEJ,KACI,oBAAA,CCJJ,IACI,YAAA,CACA,cACI,YAAA,CACA,kBACI,UAAA,CACA,WAAA,CAIR,WCVA,YAAA,CACA,6BAAA,CACA,kBAAA","file":"about.min.css"}
