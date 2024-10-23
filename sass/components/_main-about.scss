@@ -1,0 +1,61 @@
+main{
+    grid-area: "container";
+    background-color: green;
+    display: grid;
+    grid-template-areas: "background"
+    "abuot-more"
+    "knowleged"
+    "our-blog"
+    "value"
+    ;
+    grid-template-rows: 3fr 1fr 1fr 1fr 1fr ;
+
+    .background{
+        grid-area: "background";
+        background: url(../../images/about/baground-about.png);
+        width: 100vh;
+        background-size: cover;
+    }
+    .about-more{
+        
+        // grid-area: "abuot-more";
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        padding: 0px 30px;
+        h1{
+            color: black;
+        }
+        .about-more-left{
+            @include center-direction-column;
+            align-items: self-start;
+            justify-content: space-evenly;
+            .about-content{
+                display: flex;
+                align-items: center;
+                
+            }
+
+        }
+        .about-more-right{
+            // display: content;
+            display: grid; 
+            justify-items: flex-end;
+            img{
+                width: 200px;
+                height: 200px;
+            }  
+            #about-img{
+                height: 250px;
+            }
+        }
+    }
+    .knowleged{
+        grid-area: "knowleged";
+    }
+    .our-blog{
+        grid-area: "our-blog";
+    }
+    .value{
+        grid-area: "value";
+    }
+}
