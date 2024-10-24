@@ -106,9 +106,38 @@ nav {
 }
 
 main {
-  gap: 50px;
+  gap: 100px;
   display: flex;
   flex-direction: column;
+}
+main .our-blog {
+  padding: 0px 50px;
+  display: flex;
+  flex-direction: column;
+}
+main .our-blog .group-blog {
+  display: flex;
+  justify-content: space-between;
+}
+main .our-blog .group-blog .our-blog-left {
+  width: 40%;
+  display: flex;
+}
+main .our-blog .group-blog .our-blog-left img {
+  height: 200px;
+  width: 150px;
+}
+main .our-blog .group-blog .our-blog-left .our-blog-content {
+  display: flex;
+  flex-direction: column;
+}
+main .our-blog .group-blog .our-blog-right {
+  display: flex;
+  width: 40%;
+}
+main .our-blog .group-blog .our-blog-right img {
+  height: 200px;
+  width: 150px;
 }
 footer {
   grid-area: "footer";
