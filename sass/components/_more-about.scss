@@ -1,8 +1,11 @@
 .about-more{
     display: flex;  
     padding: 0px 30px;
+    p{
+        font-size: 30px;
+    }
     h1{
-        color: black;
+        color: rgb(3, 3, 3);
     }
     .about-more-left{
         flex: 2;

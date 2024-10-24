@@ -1,41 +1,12 @@
 @import"./main-bgk";
 @import "./more-about";
 @import "./kwg-about";
+@import"./blog";
 main{
     gap: 100px;  
     display: flex;
     flex-direction: column;
-    
-    .our-blog{
-        padding: 0px 50px ;
-        display: flex;
-        flex-direction: column;
-        .group-blog{
-            display: flex;
-            justify-content: space-between;
-            .our-blog-left{
-                width: 40%;
-                display: flex;
-                img{
-                    height: 200px;
-                    width: 150px;
-                }
-                .our-blog-content{
-                    display: flex;
-                    flex-direction: column;
-                    // justify-content: space-evenl;
-                }
-            }
-            .our-blog-right{
-                display: flex;
-                img{
-                    height: 200px;
-                    width: 150px;
-                }
-                width: 40%;
-            }
-        }
-    }
+
     .value{
    
     }

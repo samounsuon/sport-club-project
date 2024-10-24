@@ -14,7 +14,7 @@ nav {
 }
 
 .background {
-  height: 90vh;
+  height: 70vh;
   background: url(../../images/about/baground-about.png);
   background-size: cover;
 }
@@ -24,10 +24,10 @@ nav {
   padding: 0px 30px;
 }
 .about-more p {
-  font-size: 30px;
+  font-size: 100px;
 }
 .about-more h1 {
-  color: rgb(3, 3, 3);
+  color: rgb(248, 0, 0);
 }
 .about-more .about-more-left {
   flex: 2;
@@ -49,7 +49,7 @@ nav {
 .about-more .about-more-left .about-content span {
   margin-left: 10px;
   color: white;
-  background-color: #000000;
+  background-color: #a31111;
   padding: 5px 10px;
 }
 .about-more .about-more-left .about-content-center {
@@ -108,54 +108,39 @@ nav {
   width: 100px;
 }
 
-#blog {
-  border-left: 5px solid;
-  padding-left: 10px;
-  margin-bottom: 10px;
-}
-
-.our-blog {
-  padding: 0px 50px;
-  display: flex;
-  flex-direction: column;
-}
-.our-blog .group-blog {
-  display: flex;
-  justify-content: space-between;
-}
-.our-blog .group-blog .our-blog-left {
-  width: 40%;
-  display: flex;
-  gap: 10px;
-}
-.our-blog .group-blog .our-blog-left img {
-  height: 200px;
-  width: 150px;
-}
-.our-blog .group-blog .our-blog-left .our-blog-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.our-blog .group-blog .our-blog-left .our-blog-content h3 {
-  font-size: 30px;
-}
-.our-blog .group-blog .our-blog-left .our-blog-content .group-bloge-content p {
-  font-size: 20px;
-}
-.our-blog .group-blog .our-blog-right {
-  display: flex;
-  width: 40%;
-}
-.our-blog .group-blog .our-blog-right img {
-  height: 200px;
-  width: 150px;
-}
-
 main {
   gap: 100px;
   display: flex;
   flex-direction: column;
+}
+main .our-blog {
+  padding: 0px 50px;
+  display: flex;
+  flex-direction: column;
+}
+main .our-blog .group-blog {
+  display: flex;
+  justify-content: space-between;
+}
+main .our-blog .group-blog .our-blog-left {
+  width: 40%;
+  display: flex;
+}
+main .our-blog .group-blog .our-blog-left img {
+  height: 200px;
+  width: 150px;
+}
+main .our-blog .group-blog .our-blog-left .our-blog-content {
+  display: flex;
+  flex-direction: column;
+}
+main .our-blog .group-blog .our-blog-right {
+  display: flex;
+  width: 40%;
+}
+main .our-blog .group-blog .our-blog-right img {
+  height: 200px;
+  width: 150px;
 }
 footer {
   grid-area: "footer";
