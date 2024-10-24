@@ -1,0 +1,47 @@
+.about-more{
+    display: flex;  
+    padding: 0px 30px;
+    h1{
+        color: black;
+    }
+    .about-more-left{
+        flex: 2;
+        @include center-direction-column;
+        align-items: self-start;
+        justify-content: space-evenly;
+        gap: 30px;
+        h1{
+            font-size: xx-large;
+        }
+        .about-content{
+            display: flex;
+            align-items: center;
+            
+            span{
+                margin-left: 10px;
+                color: white;
+                background-color: #000000;
+                padding: 5px 10px;
+            }
+        }
+        .about-content-center{
+            width: 85%
+        }
+        .btn{
+            @include btn;
+        }
+    }
+    .about-more-right{
+        .about-more-right-img{
+            display: flex;
+            align-items: flex-end;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+        }  
+        #about-img{
+            height: 250px;
+        }
+    }
+}

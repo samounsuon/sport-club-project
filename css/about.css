@@ -5,9 +5,6 @@
 
 body {
   height: 100vh;
-  display: grid;
-  grid-column: 1fr;
-  grid-template-areas: "nav-bar" "container" "footer";
   grid-template-rows: 1fr 10fr 4fr;
 }
 
@@ -16,59 +13,103 @@ nav {
   background-color: aqua;
 }
 
-main {
-  grid-area: "container";
-  background-color: green;
-  display: grid;
-  grid-template-areas: "background" "abuot-more" "knowleged" "our-blog" "value";
-  grid-template-rows: 3fr 1fr 1fr 1fr 1fr;
-}
-main .background {
-  grid-area: "background";
+.background {
+  height: 70vh;
   background: url(../../images/about/baground-about.png);
   background-size: cover;
 }
-main .about-more {
-  display: grid;
-  grid-template-columns: 1.5fr 1fr;
+
+.about-more {
+  display: flex;
   padding: 0px 30px;
 }
-main .about-more h1 {
+.about-more h1 {
   color: black;
 }
-main .about-more .about-more-left {
+.about-more .about-more-left {
+  flex: 2;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-items: self-start;
   justify-content: space-evenly;
+  gap: 30px;
 }
-main .about-more .about-more-left .about-content {
+.about-more .about-more-left h1 {
+  font-size: xx-large;
+}
+.about-more .about-more-left .about-content {
   display: flex;
   align-items: center;
 }
-main .about-more .about-more-right {
-  display: grid;
-  justify-items: flex-end;
+.about-more .about-more-left .about-content span {
+  margin-left: 10px;
+  color: white;
+  background-color: #000000;
+  padding: 5px 10px;
 }
-main .about-more .about-more-right img {
+.about-more .about-more-left .about-content-center {
+  width: 85%;
+}
+.about-more .about-more-left .btn {
+  background-color: #CFA344;
+  padding: 10px 40px;
+  color: white;
+}
+.about-more .about-more-right .about-more-right-img {
+  display: flex;
+  align-items: flex-end;
+}
+.about-more .about-more-right img {
   width: 200px;
   height: 200px;
 }
-main .about-more .about-more-right #about-img {
+.about-more .about-more-right #about-img {
   height: 250px;
 }
-main .knowleged {
-  grid-area: "knowleged";
+
+.knowleged {
+  padding: 0px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
-main .our-blog {
-  grid-area: "our-blog";
+.knowleged .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
 }
-main .value {
-  grid-area: "value";
+.knowleged .icon .knowlgeded-icon {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  text-align: center;
+}
+.knowleged .icon .knowlgeded-icon .knowlgeded-icon-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F9F4F1;
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+}
+.knowleged .icon .knowlgeded-icon .knowlgeded-icon-img img {
+  width: 100px;
 }
 
+main {
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+}
 footer {
   grid-area: "footer";
   background-color: red;
